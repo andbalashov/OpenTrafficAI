@@ -1,0 +1,4 @@
+gymnasium>=0.29
+numpy>=1.26
+torch>=2.2
+pytest>=8.2
