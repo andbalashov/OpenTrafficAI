@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "traffic_ai"
+version = "0.1.0"
+description = "Reinforcement-learning toolkit for traffic control"
+authors = [{ name = "Andrii Balashov" }]
+dependencies = [
+  "gymnasium>=0.29",
+  "torch>=2.2",
+  "numpy>=1.26"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "isort"]
